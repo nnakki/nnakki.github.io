@@ -114,9 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "nnakki"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "성장하는 개발자의 겨울나기- 깊어가는 지식 저장소"
-  location         : "South Korea"
+  avatar           : "/assets/images/profile.png"
+  bio              : "성장하는 개발자의 겨울나기. 깊어가는 지식 저장소"
+  location         : "Seoul, South Korea"
   email            :
   links:
     - label: "yvely225@gmail.com"
@@ -306,5 +306,9 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fas fa-stream" # "fas fa-thumbtack" "fas fa-stream"
 
 date_format: "%Y-%m-%d"
