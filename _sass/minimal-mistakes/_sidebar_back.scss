@@ -19,7 +19,7 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$left-sidebar-width-narrow} - 1em);
+    width: calc(#{$right-sidebar-width-narrow} - 1em);
 
     &.sticky {
       overflow-y: auto;
@@ -32,17 +32,13 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$left-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} - 1em);
 
   }
 
   > * {
-    /* sidebar left top & right margin */
-    // margin-top:1.2em;
-    /* 2022.01.25 avatar img margin top decrease */
-    // margin-top: 2.5em;
-    margin-top: 0.8em;
-    margin-bottom: 1em;
+    margin-top: 2.5em;
+    margin-bottom: 0.4em;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -128,11 +124,8 @@
   }
 
   img {
-    max-width: 150px;
-    align-items: center;
+    max-width: 200px;
     background-attachment: fixed;
-    //margin-top: 25px;
-    margin-bottom: 10px;
 
     @include breakpoint($large) {
       padding: 0px;
@@ -141,20 +134,17 @@
   }
 }
 
-
 .author__content {
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  /* 2022.01.23 margin at the bottom of the author name */
-  margin-bottom: 5px;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 0;
   }
 
@@ -174,18 +164,14 @@
 }
 .sidebar .author__name {
   font-family: $menufont;
-  color: $primary-color;
-  /* 2022.01.23 font size & weight change*/
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 1.8em;
 }
 
 .author__bio {
   margin: 0;
   font-size: 1.4em;
+  font-weight: 700;
   font-family: $menufont;
-  color:#C8CBCC;
-  border-bottom : 1px solid;
   @include breakpoint($large) {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -194,19 +180,13 @@
 
 .author__urls-wrapper {
   position: relative;
-  margin: 0.5em 0 0 0.5em;
-  border-left: 0px;
   display: table-cell;
   vertical-align: middle;
   font-size: $type-size-5;
-  font-weight: 500;
+  font-weight: 700;
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
-
-  &.sticky {
-    border-left: 2px solid rgba(199, 198, 198, 0.7);
-  }
 
   li:last-child {
     a {
@@ -253,7 +233,6 @@
   }
 }
 
-
 .author__urls {
   display: none;
   position: absolute;
@@ -265,8 +244,6 @@
   border-radius: $border-radius;
   background: $background-color;
   box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
-  /* 2022.01.22 change font */
-  font-family: $menufont;
   cursor: default;
 
   &.is--visible {
