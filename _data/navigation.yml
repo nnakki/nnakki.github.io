@@ -18,7 +18,7 @@ main:
 
 # sidebar navigation (categories)
 categories:
-  - title: "Today I Learn"
+  - title: "TIL"
     url: /categories/til/   
   - title: "Java"
     url: /categories/java/
