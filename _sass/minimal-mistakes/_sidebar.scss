@@ -128,7 +128,7 @@
   }
 
   img {
-    max-width: 150px;
+    max-width: 200px;
     align-items: center;
     background-attachment: fixed;
     //margin-top: 25px;
@@ -182,10 +182,10 @@
 
 .author__bio {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: $menufont;
   color:#C8CBCC;
-  border-bottom : 1px solid;
+  // border-bottom : 1px solid;
   @include breakpoint($large) {
     margin-top: 5px;
     margin-bottom: 10px;
