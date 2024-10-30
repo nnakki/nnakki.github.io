@@ -489,13 +489,29 @@
 .nav__sub-title {
   display: block;
   margin: 0.5rem 0;
+  margin-bottom: 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  // border-bottom: 1px solid $border-color;
 }
+
+.nav__sub-title::before {
+  content: "\f07b"; /* FontAwesome heart icon's unicode */
+  font-family: "Font Awesome 5 Free"; /* FontAwesome 폰트 패밀리 지정 */
+  font-weight: 900; /* 폰트 가중치 설정 (필요시 조정) */
+  margin-right: 8px; /* 아이콘과 텍스트 간격 */
+}
+
+.nav__items a::before {
+  content: "\f0da"; /* FontAwesome의 아이콘 유니코드 (예: 사용자 아이콘) */
+  font-family: "Font Awesome 6 Free"; /* FontAwesome 폰트 패밀리 지정 */
+  font-weight: 900; /* 아이콘 가중치 (버전에 따라 다를 수 있음) */
+  margin-right: 8px; /* 아이콘과 텍스트 간의 간격 */
+}
+
 
 /*
      Table of contents navigation
