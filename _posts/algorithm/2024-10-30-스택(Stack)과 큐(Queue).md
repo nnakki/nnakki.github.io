@@ -1,11 +1,11 @@
 ---
-title: "스택(Stack)과 큐(Queue)"
+title: "[자료구조]스택(Stack)과 큐(Queue)"
 excerpt: "알고리즘 개념정리 - 스택/큐"
 
 categories:
   - Algorithm
 tags: # 포스트 태그
-  - [Algorithm, Stack, Queue] 
+  - [Algorithm, Stack, Queue, 자료구조] 
 
 permalink: /algorithm/스택(Stack)과-큐(Queue)/
 
@@ -59,7 +59,7 @@ date: 2024-10-30 # 작성 날짜
         }
         
         ```
-        
+    
 - <span style="color:red">깊이 우선 탐색</span>의 경우 후보 중 항상 최신의 것을 선택해야 하기 때문에 <span style="color:red">스택</span>을 사용한다.
 
 # 큐

@@ -1,6 +1,6 @@
 ---
 published: true
-title: "다형성-3"
+title: "[Java]다형성-3"
 excerpt: "김영한의 실전자바(기본편) - 다형성과 설계, 좋은 객체 지향 프로그래밍이란 무엇일까, OCP(Open-Closed-Principal)"
 
 categories:

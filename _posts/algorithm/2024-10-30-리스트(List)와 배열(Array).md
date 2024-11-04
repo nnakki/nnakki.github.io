@@ -1,11 +1,11 @@
 ---
-title: "리스트(List)와 배열(Array)"
+title: "[자료구조]리스트(List)와 배열(Array)"
 excerpt: "알고리즘 개념정리 - 리스트/배열"
 
 categories:
   - Algorithm
 tags: # 포스트 태그
-  - [Algorithm, List, Array] 
+  - [Algorithm, List, Array, 자료구조] 
 
 permalink: /algorithm/리스트(Hash)와-배열(Array)/
 

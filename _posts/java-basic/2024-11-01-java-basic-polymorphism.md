@@ -1,6 +1,6 @@
 ---
 published: true
-title: "다형성-1"
+title: "[Java]다형성-1"
 excerpt: "김영한의 실전자바(기본편) - 다형성, 다형적 참조, 메서드 오버라이딩"
 
 categories:

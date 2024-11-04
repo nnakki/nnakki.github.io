@@ -1,6 +1,6 @@
 ---
 published: true
-title: "final"
+title: "[Java]final"
 excerpt: "김영한의 실전자바(기본편) - final"
 
 categories:

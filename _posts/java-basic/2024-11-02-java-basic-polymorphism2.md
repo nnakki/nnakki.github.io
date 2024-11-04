@@ -1,6 +1,6 @@
 ---
 published: true
-title: "다형성-2"
+title: "[Java]다형성-2"
 excerpt: "김영한의 실전자바(기본편) - 다형성의 활용, 추상클래스, 인터페이스, 클래스와 인터페이스의 활용"
 
 categories:

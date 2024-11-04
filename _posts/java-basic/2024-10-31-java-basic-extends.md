@@ -1,6 +1,6 @@
 ---
 published: true
-title: "상속"
+title: "[Java]상속"
 excerpt: "김영한의 실전자바(기본편) - 상속"
 
 categories:

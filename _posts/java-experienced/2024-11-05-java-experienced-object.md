@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Object클래스"
+title: "[Java]Object클래스"
 excerpt: "김영한의 실전자바(중급편) - java.lang~ , Object클래스와 다형성, Object와 OCP, toString(), equals()"
 
 categories:
