@@ -4,11 +4,11 @@ title: "다형성-3"
 excerpt: "김영한의 실전자바(기본편) - 다형성과 설계, 좋은 객체 지향 프로그래밍이란 무엇일까, OCP(Open-Closed-Principal)"
 
 categories:
-  - Java
+  - Java-Basic
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-기본편, 다형성, 객체 지향 프로그래밍, OCP] 
 
-permalink: /java/김영한의-실전-자바(기본편)-다형성3/
+permalink: /java-basic/김영한의-실전-자바(기본편)-다형성3/
 
 date: 2024-11-02
 last_modified_at: 2024-11-03 # 최종 수정 날짜

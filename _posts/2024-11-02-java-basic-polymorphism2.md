@@ -4,11 +4,11 @@ title: "다형성-2"
 excerpt: "김영한의 실전자바(기본편) - 다형성의 활용, 추상클래스, 인터페이스, 클래스와 인터페이스의 활용"
 
 categories:
-  - Java
+  - Java-Basic
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-기본편, 다형성] 
 
-permalink: /java/김영한의-실전-자바(기본편)-다형성2/
+permalink: /java-basic/김영한의-실전-자바(기본편)-다형성2/
 
 date: 2024-11-02
 last_modified_at: 2024-11-03 # 최종 수정 날짜

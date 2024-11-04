@@ -4,11 +4,11 @@ title: "상속"
 excerpt: "김영한의 실전자바(기본편) - 상속"
 
 categories:
-  - Java
+  - Java-Basic
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-기본편, 상속] 
 
-permalink: /java/김영한의-실전-자바(기본편)-상속/
+permalink: /java-basic/김영한의-실전-자바(기본편)-상속/
 
 date: 2024-10-31
 last_modified_at: 2024-10-31 # 최종 수정 날짜

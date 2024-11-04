@@ -18,20 +18,55 @@ main:
 
 # sidebar navigation (categories)
 categories:
-  - title: "TIL"
-    url: /categories/til/   
-  - title: "Java"
-    url: /categories/java/
-  - title: "Spring"
-    url: /categories/spring/
-  - title: "Algorithm"
-    url: /categories/algorithm/
-  - title: "CS"
-    url: /categories/cs/
-  - title: "Network"
-    url: /categories/network/
-  - title: "ETC"
-    url: /categories/etc/
+    - title: "TIL"
+      url: /categories/til/   
+      
+    - title: "Java"
+      children:
+      - title: "Java-Basic"
+        url: /categories/java-basic/
+      - title: "Java-Experienced"
+        url: /categories/java-experienced/
+      - title: "Java-Expert"
+        url: /categories/java-expert/
+    
+    - title: "Spring"
+      children:
+      - title: "Spring-Basic"
+        url: /categories/spring-basic/
+      - title: "Spring-MVC"
+        url: /categories/spring-mvc/
+      # - title: "Spring-Expert"
+      #   url: /categories/spring-expert/
+
+    - title: "Algorithm"
+      children:
+      - title: "Algorithm"
+        url: /categories/algorithm/
+      - title: "Cording-Test"
+        url: /categories/cording-test/
+ 
+    - title: "CS"
+      children:
+      - title: "OS"
+        url: /categories/os/
+      - title: "Network"
+        url: /categories/network/
+
+    - title: "AWS"
+      url: /categories/aws/
+    - title: "DevOps"
+      children:
+      - title: "Docker"
+        url: /categories/docker/
+      - title: "Kubernetes"
+        url: /categories/kubernetes/
+
+    # - title: "ETC"
+    #   children:
+    #   - title: "etc"
+    #     url: /categories/etc/
+
 
 # docs: 
 #   - title: "List"

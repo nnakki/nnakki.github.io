@@ -456,9 +456,10 @@
 
   /* 2022.01.23 added */
   ul {
-    margin-left: 1em;
-    padding: 0 0 0 1em;
-    border-left: 3px solid rgba($primary-color, 0.2);
+    margin-left: 0.5em;
+    padding: 0 0 0 0.5em;
+    // list-style-type: "\f0da";
+    // border-left: 3px solid rgba($primary-color, 0.2);
     li {
       padding: 0.1em 0 0.1em 0;
     }
@@ -522,6 +523,7 @@
   padding: 0 0 0 0.3em;
   font-size: $type-size-6;
   font-weight: 600;
+  color:#88A6C8;
 }
 
 
