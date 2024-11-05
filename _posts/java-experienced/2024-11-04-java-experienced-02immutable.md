@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Java]불변객체"
-excerpt: "김영한의 실전자바(중급편) - 불변 객체, 기본형과 참조형으 ㅣ공유, 공유 참조와 사이드 이펙트"
+excerpt: "김영한의 실전자바(중급편) - 불변 객체, 기본형과 참조형의 공유, 공유 참조와 사이드 이펙트"
 
 categories:
   - Java-Experienced
