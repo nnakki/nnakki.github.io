@@ -10,8 +10,8 @@ tags: # 포스트 태그
 
 permalink: /java-experienced/ObejectClass/
 
-date: 2024-11-05
-last_modified_at: 2024-11-05 # 최종 수정 날짜
+date: 2024-11-04
+last_modified_at: 2024-11-04 # 최종 수정 날짜
 ---
 
 # Java.lang.패키지
@@ -159,7 +159,7 @@ public boolean equals(Object o) {
 }
 ```
 
-**⚠️  equals()메서드를 구현할 때 지켜야하는 규칙**
+**📌 equals()메서드를 구현할 때 지켜야하는 규칙**
 
 1. 반사성(Reflexivity) : 객체는 자기 자신과 동등해야 한다. `x.equals(x) → true`
 2. 대칭성(Symmetry) : 객체가 서로가 동등하다고 판단된다면, 이는 양방향으로 동일해야 한다. (x.equals(y) → true 라면 y.equals(x) → true)
@@ -167,6 +167,18 @@ public boolean equals(Object o) {
 4. 일관성(Consistency) : 비교한 두 객체의 상태가 변경되지 않는다면 `equals()`메소드는 항상 동일한 값을 반환해야 한다.
 5. null에 대한 비교 : 모든 객체는 null과 비교하였을 때는 `false`를 반환해야 한다.
 
-**⚠️ 동등성 비교가 항상 필요하지는 않기 때문에 필요한 경우에만 equals()를 재정의하면 된다. (보통 IDE가 재정의해주는 equals()를 사용한다)** 
+**📌 동등성 비교가 항상 필요하지는 않기 때문에 필요한 경우에만 equals()를 재정의하면 된다. <br>(보통 IDE가 재정의해주는 equals()를 사용한다)** 
 
-**⚠️ equals()메서드는 보통 hashCode()와 함께 사용한다.** 
+**📌 equals()메서드는 보통 hashCode()와 함께 사용한다.** 
+
+### Object클래스의 이외 메서드
+
+- `clone()` : 객체를 복사할 때 사용한다. 잘 사용하지 않으므로 다루지 않는다.
+- `hashCode()` :  `equals()` 와 `hashCode()` 는 종종 함께 사용된다. `hashCode()` 는 뒤에 컬렉션 프레임워크에서 자세히 설명한다.
+
+- `getClass()` : 뒤에 `Class` 에서 설명한다.
+
+- `notify()` , `notifyAll()` , `wait()` : 멀티쓰레드용 메서드이다. 멀티쓰레드에서 다룬다.
+
+
+
