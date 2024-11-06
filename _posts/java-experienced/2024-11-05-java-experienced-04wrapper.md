@@ -48,8 +48,8 @@ package lang.wrapper;
 public class WrapperClassMain {
 
     public static void main(String[] args) {
-        Integer newInteger = new Integer(10); //미래에 삭제 예정, 대신에 valueOf()를 사용
-        Integer integerObj = Integer.valueOf(10); //-128 ~ 127 자주 사용하는 숫자 값 재사용, 불변
+        Integer newInteger = new Integer(10);
+        Integer integerObj = Integer.valueOf(10); 
         Long longObj = Long.valueOf(100);
         Double doubleObj = Double.valueOf(10.5);
 
