@@ -18,7 +18,7 @@ last_modified_at: 2024-11-04 # 최종 수정 날짜
 
 ## 1️⃣ String 클래스 기본 
 
-String을 통해 문자열을 생성하는 방법
+<mark>String을 통해 문자열을 생성하는 방법</mark>
 
 ```java
 String str1 = "hello";

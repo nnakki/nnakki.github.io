@@ -106,7 +106,7 @@
     background-color: $mark-highlight-color;
     color: rgb(27, 26, 26);
     padding: 0.2em 0.25em 0.2em 0.25em;
-    border-radius: 0.3em;
+    border-radius: 0.1em;
   }
   
   strong {
@@ -117,10 +117,10 @@
   
   blockquote {
     margin: 1.5em 1em 1.5em 0em;
-    padding: 0.7em 1em 0.7em 1.5em;
+    padding: 0.4em 0.5em 0.4em 1em;
     background-color: $block-quote-background-color;
   
-    border-left: 0.25em solid $primary-color;
+    // border-left: 0.25em solid $block-color;
   
     cite {
       font-style: italic;
@@ -193,8 +193,8 @@
     margin-right: 0.1em;
     font-family: $monospace;
     font-weight: 500;
-    background-color: #C4D8F8;
-    color: #4D70A5;
+    background-color: $sub-color;
+    color: $p-code-text;
     border-radius: 2px;
     
     &:before,

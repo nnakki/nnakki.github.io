@@ -5,9 +5,9 @@
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
-    <li>
+    <!-- <li>
       <a href="/"><span class="nav__total">❄️ Total Posts: {{ site.posts | size }}</span></a>
-    </li>
+    </li> -->
 
     {% for nav in navigation %}
       {% assign post_count = 0 %}  <!-- 카운트 초기화 -->
