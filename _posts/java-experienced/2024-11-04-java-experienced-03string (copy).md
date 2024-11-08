@@ -4,11 +4,11 @@ title: "[Java]String클래스"
 excerpt: "김영한의 실전자바(중급편) - 불변 객체, String클래스의 메서드와 특징, String 최적화, 메서드 체이닝(Method Chaining)"
 
 categories:
-  - Java-Experienced
+  - Java-Intermediate
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-중급편, String] 
 
-permalink: /java-experienced/String/
+permalink: /java-intermediate/String/
 
 date: 2024-11-04
 last_modified_at: 2024-11-04 # 최종 수정 날짜

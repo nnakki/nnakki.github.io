@@ -4,11 +4,11 @@ title: "[Java]Object클래스"
 excerpt: "김영한의 실전자바(중급편) - java.lang~ , Object클래스와 다형성, Object와 OCP, toString(), equals()"
 
 categories:
-  - Java-Experienced
+  - Java-Intermediate
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-중급편, Object, toString(), equals()] 
 
-permalink: /java-experienced/ObejectClass/
+permalink: /java-intermediate/ObejectClass/
 
 date: 2024-11-04
 last_modified_at: 2024-11-04 # 최종 수정 날짜

@@ -17,18 +17,15 @@ main:
     icon: "fas fa-search"
 
 # sidebar navigation (categories)
-categories:
-    - title: "TIL"
-      url: /categories/til/   
-      
+categories:      
     - title: "Java"
       children:
       - title: "Java-Basic"
         url: /categories/java-basic/
-      - title: "Java-Experienced"
-        url: /categories/java-experienced/
-      - title: "Java-Expert"
-        url: /categories/java-expert/
+      - title: "Java-Intermediate"
+        url: /categories/java-intermediate/
+      - title: "Java-Advanced"
+        url: /categories/java-advanced/
     
     - title: "Spring"
       children:
@@ -53,14 +50,18 @@ categories:
       - title: "Network"
         url: /categories/network/
 
-    - title: "AWS"
-      url: /categories/aws/
     - title: "DevOps"
       children:
       - title: "Docker"
         url: /categories/docker/
       - title: "Kubernetes"
         url: /categories/kubernetes/
+
+    - title: "AWS"
+      url: /categories/aws/
+
+    - title: "TIL"
+      url: /categories/til/   
 
     # - title: "ETC"
     #   children:

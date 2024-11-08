@@ -4,11 +4,11 @@ title: "[Java]Enum - 열거형"
 excerpt: "김영한의 실전자바(중급편) - 문자열 타입고 안정성, 타입 안전 열거형 패턴, Enum"
 
 categories:
-  - Java-Experienced
+  - Java-Intermediate
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-중급편, Enum] 
 
-permalink: /java-experienced/enum/
+permalink: /java-intermediate/enum/
 
 date: 2024-11-06
 last_modified_at: 2024-11-06 # 최종 수정 날짜
@@ -16,7 +16,7 @@ last_modified_at: 2024-11-06 # 최종 수정 날짜
 
 ## 문자열과 타입 안정성(Enum의 등장 배경)
 
-열거형을 이해하기 위해서는 근본적으로 열거형이 왜 필요한지에 대한 이유부터 알아야한다. 아래의 예시로 그 이유를 알아보자.
+열거형을 이해하기 위해서는 근본적으로 열거형이 왜 필요한지에 대한 이유부터 알아야한다. <br>아래의 예시로 그 이유를 알아보자.
 
 ### ❓단순 String을 사용하면 어떤 문제가 있을까
 

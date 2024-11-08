@@ -51,7 +51,7 @@ body {
     width: calc(100% - #{$left-sidebar-width});
     padding-right: $right-sidebar-width;
     /* 2022.01.19 gap between sidebar and page */
-    padding-left: 3em;
+    padding-left: 0em;
   }
 
   .page__inner-wrap {
@@ -80,6 +80,8 @@ body {
   margin-top: 0;
   line-height: 1.5;
   font-size: $type-size-3;
+  // border-bottom: 1px solid;
+  // border-bottom-color: $primary-color;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -95,6 +97,7 @@ body {
 .page__content {
   font-size: 0.9em;
   font-weight: normal;
+  color:$text-color;
 
   h1 {
     font-weight: bold;

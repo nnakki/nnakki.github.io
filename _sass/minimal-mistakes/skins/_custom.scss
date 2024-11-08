@@ -1,15 +1,16 @@
 /* ==========================================================================
-   Plum skin
+   custom skin
    ========================================================================== */
 
 /* Colors */
 $background-color: #ffffff !default;
 $text-color: #000000 !default;
-$primary-color: #db0000 !default;
+$primary-color: #34312f !default;
 
-$sub-color:#564d4d;
-$p-code-text:#ffffff;
-$mark-color:#ffd966;
+$sub-color:#facc5f;
+$description-color:rgba($text-color, 0.8);
+$p-code-text:#34312f;
+$mark-color:#FF8000;
 
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: #ffffff;
@@ -93,7 +94,8 @@ $base0f: #cc6633 !default;
   border-color: transparent;
 
   &:visited {
-    color: $text-color;
+    // color: $text-color;
+    color: $p-code-text;
   }
 }
 

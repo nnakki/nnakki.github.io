@@ -4,11 +4,11 @@ title: "[Java]불변객체"
 excerpt: "김영한의 실전자바(중급편) - 불변 객체, 기본형과 참조형의 공유, 공유 참조와 사이드 이펙트"
 
 categories:
-  - Java-Experienced
+  - Java-Intermediate
 tags: # 포스트 태그
   - [java, 김영한의 실전 자바-중급편, 불변 객체] 
 
-permalink: /java-experienced/ImmutableClass/
+permalink: /java-intermediate/ImmutableClass/
 
 date: 2024-11-04
 last_modified_at: 2024-11-04 # 최종 수정 날짜
