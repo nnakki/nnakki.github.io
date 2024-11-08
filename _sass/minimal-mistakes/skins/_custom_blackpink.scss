@@ -5,18 +5,18 @@
 /* Colors */
 $background-color: #ffffff !default;
 $text-color: #000000 !default;
-$primary-color: #025951 !default;
+$primary-color: #242426 !default;
 
-$sub-color:#04D99D;
+$sub-color:#010326;
 $description-color:rgba($text-color, 0.8);
-$p-code-text:#025951;
-$mark-color:#04D9B2;
+$p-code-text:#010326;
+$mark-color:#F2BBC5;
 
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: #ffffff;
 $code-background-color-dark: rgba(185, 185, 185, 0.25) !default;
 
-$mark-highlight-color: rgba($mark-color, 0.5) !default;
+$mark-highlight-color: rgba($mark-color, 0.7) !default;
 $block-quote-background-color: rgba($sub-color, 0.1) !default;
 $form-background-color: rgba(255, 255, 255, 0.527) !default;
 $footer-background-color: mix(#000, $background-color, 3%) !default;
