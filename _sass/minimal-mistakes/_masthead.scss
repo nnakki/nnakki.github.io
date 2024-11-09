@@ -28,6 +28,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $menufont;
+    
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -115,6 +116,7 @@
   list-style-type: none;
   white-space: nowrap;
   font-weight: bold;
+  color: $mark-color;
   
   &--lg {
     padding-right: 2em;
