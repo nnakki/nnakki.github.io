@@ -182,8 +182,8 @@
   a {
     display: block;
     margin: 0 1rem;
-    color: $mark-color;
-    // color: $masthead-link-color;
+    // color: $mark-color;
+    color: $masthead-link-color;
     text-decoration: none;
     -webkit-transition: none;
     transition: none;
@@ -244,7 +244,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $primary-color;
+        background: $mark-color;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -451,7 +451,7 @@
     font-weight: 500;
 
     &:hover {
-      color: rgba($text-color, 0.8);
+      color: rgba($mark-color, 0.5);
     }
   }
 
@@ -471,7 +471,8 @@
   }
 
   .active {
-    font-weight: normal;
+    font-weight: bold;
+    color: $mark-color;
   }
 
   .nav__total {
