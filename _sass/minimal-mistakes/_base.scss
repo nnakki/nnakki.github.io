@@ -104,7 +104,7 @@
   /* mark */
   mark {
     background-color: $mark-highlight-color;
-    font-weight: bold;
+    // font-weight: bold;
     // color: $sub-color;
     color: rgb(27, 26, 26);
     padding: 0.2em 0.25em 0.2em 0.25em;
@@ -122,7 +122,10 @@
     padding: 0.4em 0.5em 0.4em 1em;
     background-color: $block-quote-background-color;
   
-    // border-left: 0.25em solid $block-color;
+    // border-left: 0.25em solid $sub-color;
+    border-top: 0.2em solid rgba($sub-color,0.5);
+    border-bottom: 0.2em solid rgba($sub-color,0.5);
+
   
     cite {
       font-style: italic;

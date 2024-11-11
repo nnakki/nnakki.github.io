@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Java]날짜와 시간2"
-excerpt: "김영한의 실전자바(중급편) - LocalDateTime, ZonedDateTime, Instant, Duration, Period, 문자열 파싱과 포맷팅"
+excerpt: "김영한의 실전자바(중급편) - ChronoField, ChronoUnit, TemporalAdjusters인터페이스, 문자열 파싱과 포맷팅"
 
 categories:
   - Java-Intermediate
@@ -205,3 +205,50 @@ public class FormattingMain1 {
 ```
 
 문자열을 읽어서 날짜와 시간으로 파싱할 때는 년,월,일,시,분,초의 위치를 정해서 읽어야한다.
+
+#### 캘린더 출력
+
+```java
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.temporal.TemporalAdjuster;
+import java.time.temporal.TemporalAdjusters;
+import java.util.Scanner;
+
+public class TestCalendrPrinter {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("년도를 입력하세요 : ");
+        int year = sc.nextInt();
+        System.out.print("월을 입력하세요 : ");
+        int month = sc.nextInt();
+
+        //달력을 출력한다.
+        printCalendar(year, month);
+    }
+
+    public static void printCalendar(int year, int month){
+        LocalDate firstDayOfMonth = LocalDate.of(year, month, 1);
+        LocalDate firstDayOfNextMonth = firstDayOfMonth.plusMonths(1);
+
+        //월요일=1 ... 일요일=7
+        int offsetWeekDays = firstDayOfMonth.getDayOfWeek().getValue();
+
+        System.out.println("Su Mo Tu We Th Fr Sa");
+        for(int i=0; i<offsetWeekDays; i++){
+            System.out.print("   ");
+        }
+
+        LocalDate dayIterator = firstDayOfMonth;
+        while(dayIterator.isBefore(firstDayOfNextMonth)){
+            System.out.printf("%2d ", dayIterator.getDayOfMonth());
+            if(dayIterator.getDayOfWeek() == DayOfWeek.SATURDAY){
+                System.out.println();
+            }
+            dayIterator = dayIterator.plusDays(1);
+        }
+    }
+}
+
+```
+
