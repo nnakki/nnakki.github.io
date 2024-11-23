@@ -33,6 +33,8 @@ categories:
         url: /categories/spring-basic/
       - title: "Spring-MVC"
         url: /categories/spring-mvc/
+      - title: "Spring-Projects"
+        url: /categories/spring-projects/
       # - title: "Spring-Expert"
       #   url: /categories/spring-expert/
 
@@ -58,7 +60,7 @@ categories:
         url: /categories/kubernetes/
 
     - title: "AWS"
-      url: /categories/aws/
+      url: /categories/aws/ 
 
     - title: "TIL"
       url: /categories/til/   
