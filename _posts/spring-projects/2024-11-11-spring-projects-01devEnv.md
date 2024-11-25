@@ -4,7 +4,7 @@ title: "[Spring Project]개발 환경 설정"
 excerpt: "개발 환경 설정하기, 웹 프로젝트 환경 구성"
 
 categories:
-  - Spring-projects
+  - Spring-Projects
 tags: # 포스트 태그
   - [개발 환경 설정, 웹 프로젝트, gradle] 
 

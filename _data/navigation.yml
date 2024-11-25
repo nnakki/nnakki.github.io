@@ -26,6 +26,8 @@ categories:
         url: /categories/java-intermediate/
       - title: "Java-Advanced"
         url: /categories/java-advanced/
+      - title: "Java"
+        url: /categories/java/
     
     - title: "Spring"
       children:
