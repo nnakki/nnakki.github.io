@@ -18,27 +18,17 @@ main:
 
 # sidebar navigation (categories)
 categories:      
-    - title: "Java"
+    - title: "Programming Language"
       children:
-      - title: "Java-Basic"
-        url: /categories/java-basic/
-      - title: "Java-Intermediate"
-        url: /categories/java-intermediate/
-      - title: "Java-Advanced"
-        url: /categories/java-advanced/
       - title: "Java"
         url: /categories/java/
-    
-    - title: "Spring"
+      - title: "Python"
+        url: /categories/python/
+
+    - title: "Framework"
       children:
-      - title: "Spring-Basic"
-        url: /categories/spring-basic/
-      - title: "Spring-MVC"
-        url: /categories/spring-mvc/
-      - title: "Spring-Projects"
-        url: /categories/spring-projects/
-      # - title: "Spring-Expert"
-      #   url: /categories/spring-expert/
+      - title: "Spring"
+        url: /categories/spring/
 
     - title: "Algorithm"
       children:
@@ -47,31 +37,35 @@ categories:
       - title: "Cording-Test"
         url: /categories/cording-test/
  
-    - title: "CS"
+    - title: "System & DevOps"
       children:
       - title: "OS"
         url: /categories/os/
       - title: "Network"
         url: /categories/network/
-
-    - title: "DevOps"
-      children:
+      - title: "Linux"
+        url: /categories/linux/
       - title: "Docker"
         url: /categories/docker/
       - title: "Kubernetes"
         url: /categories/kubernetes/
 
-    - title: "AWS"
-      url: /categories/aws/ 
+    - title: "Cloud"
+      children:    
+      - title: "AWS"
+        url: /categories/aws/
 
-    - title: "TIL"
-      url: /categories/til/   
+    - title: "Security"
+      children:
+      - title: "Information Security"
+        url: /categories/sec-info/
+      - title: "Penetration Testing"
+        url: /categories/p-test/
 
     # - title: "ETC"
     #   children:
     #   - title: "etc"
     #     url: /categories/etc/
-
 
 # docs: 
 #   - title: "List"
