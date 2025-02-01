@@ -4,9 +4,9 @@ title: "[Spring Project]테스트 코드 실습"
 excerpt: "Junit5, 테스트 코드 실습"
 
 categories:
-  - Spring-Projects
+  - Spring
 tags: # 포스트 태그
-  - [테스트 코드, JUnit5] 
+  - [10개 프로젝트로 완성하는 백엔드 웹개발] 
 
 permalink: /spring-projects/testcode/
 

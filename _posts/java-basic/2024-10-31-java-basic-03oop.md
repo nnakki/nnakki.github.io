@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(기본편) - 객체지향 프로그래밍"
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-기본편, 객체 지향] 
+  - [김영한의 실전 자바-기본편] 
 
 permalink: /java-basic/OOP/
 

@@ -4,9 +4,9 @@ title: "[Spring Project]도커 및 도커 컴포즈를 통한 환경설정"
 excerpt: "개발 환경 설정하기, 도커, 도커 컴포즈"
 
 categories:
-  - Spring-Projects
+  - Spring
 tags: # 포스트 태그
-  - [개발 환경 설정, 도커, docker, 도커 컴포즈] 
+  - [10개 프로젝트로 완성하는 백엔드 웹개발] 
 
 permalink: /spring-projects/docker/
 

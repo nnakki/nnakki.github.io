@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(기본편) - 자바 메모리 구조와 stat
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-기본편, 메모리구조, static, 힙, 스택, 큐] 
+  - [김영한의 실전 자바-기본편] 
 
 permalink: /java-basic/memoriesandstatic/
 

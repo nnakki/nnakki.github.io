@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - 예외 처리, 예외 계층, �
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, 예외 처리] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/exception/
 

@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - 중첩 클래스의 정의, 정
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, 중첩 클래스, 내부 클래스, 익명 클래스] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/InnerClass1/
 

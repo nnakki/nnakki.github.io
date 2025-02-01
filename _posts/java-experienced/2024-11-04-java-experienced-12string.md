@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - 불변 객체, String클래스�
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, String] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/String/
 

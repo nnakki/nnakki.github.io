@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - java.lang~ , Object클래스와
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, Object, toString(), equals()] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/ObejectClass/
 

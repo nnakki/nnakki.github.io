@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(기본편) - 패키지와 접근제어자"
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-기본편, 패키지, 접근제어자] 
+  - [김영한의 실전 자바-기본편] 
 
 permalink: /java-basic/package/
 

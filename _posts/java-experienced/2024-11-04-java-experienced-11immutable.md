@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - 불변 객체, 기본형과 참
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, 불변 객체] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/ImmutableClass/
 

@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - 문자열 타입고 안정성, 
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, Enum] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/enum/
 

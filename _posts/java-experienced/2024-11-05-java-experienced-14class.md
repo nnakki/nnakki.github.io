@@ -6,7 +6,7 @@ excerpt: "김영한의 실전자바(중급편) - System클래스, Math, Random �
 categories:
   - Java
 tags: # 포스트 태그
-  - [java, 김영한의 실전 자바-중급편, Class, System클래스, Math, Random] 
+  - [김영한의 실전 자바-중급편] 
 
 permalink: /java-intermediate/class/
 
