@@ -55,12 +55,17 @@ categories:
       - title: "AWS"
         url: /categories/aws/
 
-    - title: "Security"
+    # - title: "Security"
+    #   children:
+    #   - title: "Information Security"
+    #     url: /categories/sec-info/
+    #   - title: "Penetration Testing"
+    #     url: /categories/p-test/
+
+    - title: "Etc"
       children:
-      - title: "Information Security"
-        url: /categories/sec-info/
-      - title: "Penetration Testing"
-        url: /categories/p-test/
+      - title: "qualifications"
+        url: /categories/qualifications/
 
     # - title: "ETC"
     #   children:
